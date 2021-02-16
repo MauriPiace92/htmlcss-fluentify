@@ -17,7 +17,6 @@ body{
 
 .col{
     float: left;
-    margin:10px ;
 }
 
 .clearfix::after{
@@ -60,7 +59,7 @@ header{
 
 .container{
     margin: 0 auto;
-    width: 90%;
+    width: 1024px;
 }
 
 
@@ -71,11 +70,12 @@ header{
 /* NAV */
 .menu-central{
     width: 40%;
-    margin :10px;
+    margin: 0 20px;
 }
 
 .menu-right {
     width:40%;
+    margin-left: 10px;
 }
 
 .menu {
@@ -145,10 +145,45 @@ header{
 /* Section three-col */
  .three-col{
      width: 100%;
-
-     /* test*/
-     background-color: tomato;
-     height: 400px;
+     text-align:center;
+ }
+ .three-col img{
+     object-fit: contain;
+     height: 100%;
+     width: 100%;
+ }
+ .content-img{
+     width: 200px;
+     height:200px;
+     margin:auto;
+     
+    
  }
 
+ .box{
+     padding: 40px 0;
+ }
 
+ .box h2{
+     color:lime;
+ }
+
+.box hr{
+    width: 70px;
+    margin: 20px auto;
+}
+
+ .sec-left{
+     width: 30%;
+
+
+ }
+
+.sec-centered{
+    width: 30%;
+    margin:0 20px;
+}
+
+.sec-right{
+    width: 30%;
+}
